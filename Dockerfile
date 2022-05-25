@@ -1,5 +1,7 @@
 FROM ubuntu:16.04
 
+MAINTAINER kool@blabla.com <Kool von BlaBla>
+
 RUN apt-get update && apt-get install -y python python-pip
 
 RUN pip install flask
